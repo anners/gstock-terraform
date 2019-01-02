@@ -25,10 +25,21 @@ variable "in_scope_cde_project_id" {
   default = "in-scope-cde-dfe87325d4b52d59"
 }
 
+variable "out_scope_cde_project_number" {
+  default = "817973300807"
+}
+
+variable "out_scope_cde_project_id" {
+  default = "out-scope-cde-314158cd68bb6473"
+}
+
+variable "location" {
+  default = "us-central"
+}
+
 variable "region" {
   default = "us-central1"
 }
-
 variable "region_zone" {
   default = "us-central1-f"
 }
